@@ -51,6 +51,9 @@ p.ex1 {
     <td><a href="#Abstract">Abstract</td>
   </tr>
   <tr>
+    <td><a href="#Button">Button</td>
+  </tr>
+  <tr>
     <td><a href="#References">References</td>
   </tr>
 </table>
@@ -60,7 +63,22 @@ p.ex1 {
   <pre>
     Table Of Content patch 4
   </pre>
-  <h4 id="References">References</h4>
+  <h3 id="Button">Button</h3>
+  <button id="colorButton">Click me to change colour</button>
+<script>
+// Get a reference to the button element
+var button = document.getElementById("colorButton");
+// Function to change the button color
+function changeColor() {
+// Generate a random color (hexadecimal)
+var randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
+// Set the button's background color to the random color
+button.style.backgroundColor = randomColor;
+}
+// Add a click event listener to the button
+button.addEventListener("click", changeColor);
+</script>
+  <h3 id="References">References</h3>
 </p>
   <p class="ex1">
     <pre>
