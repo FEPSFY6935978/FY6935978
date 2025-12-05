@@ -67,7 +67,7 @@ p.ex1 {
   <hr>
   <h3 id="Abstract">Abstract</h3>
 <p class="ex1">
-  <pre id="Abstract">
+  <pre id="#Abstract">
     The purpose of this paper will be to find an average time to complete the Omega Ruby/Alpha Sapphire Regional
     Pokédex and Shiny Regional Pokédex. The average time will be calculated using a combination of personal 
     gameplay, calculated encounter times and catch rates. The average time I will be calculate may not be entirely 
@@ -78,7 +78,7 @@ p.ex1 {
   </pre>
   <h3 id="Exclusions">Exclusions</h3>
 <p class="ex1">
-  <p id="Exclusions">
+  <p id="#Exclusions">
     For both versions of the regional pokédex, I will be excluding Jirachi as it is a mythical Pokémon, meaning it
     can only be obtained from events which are no longer running, making it unobtainable. The excluded Pokémon for
     the shiny regional pokédex are Kyogre, Groudon, Rayquaza and Deoxys, as these 4 Pokémon are shiny-locked in
@@ -86,7 +86,7 @@ p.ex1 {
   </p>
   <h3 id="Overview">Overview</h3>
 <p class="ex1">
-  <p id="Overview">
+  <p id="#Overview">
     I will be using the Generation 6 Pokémon games Omega Ruby and Alpha Sapphire. For the Regional Pokédex, I
     will be following my progress on the physical copy of Alpha Sapphire, however for the Shiny Regional Pokédex
     I will be taking into account the shiny odds for various shiny-hunting methods, average encounter and hatching
@@ -141,7 +141,7 @@ Figure 1:
     </p>
   <h3 id="Regional">Regional Pokédex</h3>
 <p class="ex1">
-  <p id="Regional">
+  <p id="#Regional">
     The average time to complete the Generation 6 Hoenn Regional Pokédex will be determined by using the
     playthrough times for the multiple playthroughs of Alpha Sapphire and Omega Ruby necessary to complete
     the Regional Pokédex. For the playthroughs, I will be using a Nintendo 2DS, a physical cartridge of Pokémon
@@ -152,7 +152,7 @@ Figure 1:
   </p>
   <h3 id="Shiny">Shiny Regional Pokédex</h3>
 <p class="ex1">
-  <p id="Shiny">
+  <p id="#Shiny">
     For the Shiny Regional Pokédex, I will not be completing the Pokédex on the physical cartridge of Alpha
     Sapphire, because of the low chance of encountering a shiny Pokémon. Instead, I will consider encounter
     times and average the odds of finding a shiny, the average time to get an encounter, and the odds of that
@@ -267,7 +267,7 @@ Figure 1:
 </p>
   <h3 id="References">References</h3>
   <p class="ex1">
-    <p id="References">
+    <p id="#References">
       <a href="https://bulbapedia.bulbagarden.net/wiki/Main_Page#:~:text=Bulbapedia%20is%20an%20encyclopedia%20about%20Pok%C3%A9mon%20to%20which%20anyone%20can">Bulbapedia (2005-2025), Accessed: 4/12/2025</a>
       <a href="https://pokemondb.net/">Pokémon Database (2008-2025), Accessed: 4/12/2025</a>
       <a href="https://oraswiki.com/">Pokémon ORAS Wiki (2014-2022), Accessed: 4/12/2025</a>
@@ -338,12 +338,12 @@ Figure 1:
   // Function to calculate and display total word count from selected sections
   function displayTotalWordCount() {
     // Calculate word count for each section and accumulate the total
-    const AbstractCount = displayWordCount("Abstract");
-    const ExclusionsCount = displayWordCount("Exclusions");
-    const OverviewCount = displayWordCount("Overview");
-    const RegionalCount = displayWordCount("Regional");
-    const ShinyCount = displayWordCount("Shiny");
-    const ReferencesCount = displayWordCount("References");
+    const AbstractCount = displayWordCount("#Abstract");
+    const ExclusionsCount = displayWordCount("#Exclusions");
+    const OverviewCount = displayWordCount("#Overview");
+    const RegionalCount = displayWordCount("#Regional");
+    const ShinyCount = displayWordCount("#Shiny");
+    const ReferencesCount = displayWordCount("#References");
     // Calculate the sum of all selected sections
     const totalWordCount = AbstractCount + ExclusionsCount + OverviewCount + RegionalCount + ShinyCount + ReferencesCount;
     // Display the total word count
